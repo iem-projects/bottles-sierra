@@ -1,4 +1,10 @@
-# Iem-projects Sierra
+# iem-projects/sierra
+
+Bottles for macOS/sierra
+
+## What is this?
+This project is an attempt to provide bottles for some formulae
+we need for building software on "sierra" build bots.
 
 ## How do I install these formulae?
 `brew install iem-projects/sierra/<formula>`
