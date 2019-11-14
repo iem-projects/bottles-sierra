@@ -5,10 +5,8 @@ class Hwloc < Formula
   sha256 "19429752f772cf68321196970ffb10dafd7e02ab38d2b3382b157c78efd10862"
 
   bottle do
-    cellar :any
-    sha256 "94e4e238c45da330b53fde9c622e74a2dfabd00a17f37fa1807b1d828452759d" => :catalina
-    sha256 "df6180858171e5345d517cb5d7bace1f0f33fd63a84180ec591f2530465d7172" => :mojave
-    sha256 "e07953afc5a1e9548c467b1336c7003c2e2d008110c8e2012f160dedc3b15037" => :high_sierra
+    root_url "https://dl.bintray.com/iem/bottles-sierra"
+    sha256 "0b13e2d51c3644d0dc8febe826d1ab845f15bc5f32f0bb08f7f1b7c95dfbd9ef" => :sierra
   end
 
   head do
