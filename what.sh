@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# https://jonathanchang.org/blog/maintain-your-own-homebrew-repository-with-binary-bottles/
+
 bintrayroot=https://dl.bintray.com/iem/bottles-sierra
 user=$(git config user.name)
 email=$(git config user.email)
